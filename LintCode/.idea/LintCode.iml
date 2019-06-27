@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/三步翻转法" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DFS" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/BFS" />
+      <excludeFolder url="file://$MODULE_DIR$/Binary Search" />
+      <excludeFolder url="file://$MODULE_DIR$/Binary Search &amp; O(logN)" />
+      <excludeFolder url="file://$MODULE_DIR$/Binary Search _ O(logN)" />
+      <excludeFolder url="file://$MODULE_DIR$/Binary Tree" />
+      <excludeFolder url="file://$MODULE_DIR$/Bit Manipulation" />
+      <excludeFolder url="file://$MODULE_DIR$/DFS" />
+      <excludeFolder url="file://$MODULE_DIR$/DP" />
+      <excludeFolder url="file://$MODULE_DIR$/DS - Build In" />
+      <excludeFolder url="file://$MODULE_DIR$/DS - Hash" />
+      <excludeFolder url="file://$MODULE_DIR$/DS - Heap" />
+      <excludeFolder url="file://$MODULE_DIR$/DS - Linked List" />
+      <excludeFolder url="file://$MODULE_DIR$/DS - Queue" />
+      <excludeFolder url="file://$MODULE_DIR$/DS - Stack" />
+      <excludeFolder url="file://$MODULE_DIR$/DS - Stack Queue" />
+      <excludeFolder url="file://$MODULE_DIR$/Data Structure - Stack &amp; Queue" />
+      <excludeFolder url="file://$MODULE_DIR$/Linked List" />
+      <excludeFolder url="file://$MODULE_DIR$/OO Design" />
+      <excludeFolder url="file://$MODULE_DIR$/SQL" />
+      <excludeFolder url="file://$MODULE_DIR$/Sort" />
+      <excludeFolder url="file://$MODULE_DIR$/Sorting" />
+      <excludeFolder url="file://$MODULE_DIR$/Sweep Line" />
+      <excludeFolder url="file://$MODULE_DIR$/Threading and Processing" />
+      <excludeFolder url="file://$MODULE_DIR$/Two Pointers" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.7 (LintCode)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="R User Library" level="project" />
+    <orderEntry type="library" name="R Skeletons" level="application" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>
