@@ -28,6 +28,12 @@ There are two ways to reach the bottom-right corner:
 2. Down -> Down -> Right -> Right
 """
 
+"""
+计数型DP
+Time Complexity: O(mn)
+Space Complexity: O(mn)
+"""
+
 
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:

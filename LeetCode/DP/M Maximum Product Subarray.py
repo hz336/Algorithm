@@ -14,6 +14,7 @@ Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
 """
 
 """
+最值型DP
 Time Complexity: O(n)
 Space Complexity: O(2n)
 """
@@ -28,8 +29,8 @@ class Solution:
                 f_max[i] = f_min[i] = nums[i]
                 continue
 
-            f_max[i] = max(nums[i], max(nums[i] * f_max[i - 1], nums[i] * f_min[i - 1]))
-            f_min[i] = min(nums[i], min(nums[i] * f_max[i - 1], nums[i] * f_min[i - 1]))
+            f_max[i] = max(nums[i], nums[i] * f_max[i - 1], nums[i] * f_min[i - 1])
+            f_min[i] = min(nums[i], nums[i] * f_max[i - 1], nums[i] * f_min[i - 1])
 
         return max(f_max)
 

@@ -15,6 +15,7 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 """
 
 """
+可行性型DP
 Time Complexity: O(length of array * sum of the array / 2)
 Space Complexity: O(length of array * sum of the array / 2)
 """
