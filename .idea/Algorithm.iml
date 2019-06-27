@@ -5,7 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/LeetCode" />
       <excludeFolder url="file://$MODULE_DIR$/LintCode" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (LintCode)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
