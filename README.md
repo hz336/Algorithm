@@ -1,7 +1,5 @@
 # Algorithm
 
-Done:  
-
 To do:
 - DP: Best Time to Buy and Sell Stock I, II, III, IV, with Cooldown, with Transaction Fee  
 - DP: Paint House II
