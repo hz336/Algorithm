@@ -58,3 +58,47 @@ class Solution:
 
         return result        
      
+
+    
+"""
+Time Complexity: O(nk)
+Space Complexity: O(k)
+"""
+class Solution:
+    def maxProfit(self, k: int, prices: List[int]) -> int:
+        if prices is None or len(prices) == 0:
+            return 0
+
+        num_days = len(prices)
+        num_states = 2 * k + 1        
+        
+        if num_states >= num_days:
+            result = 0
+            for day in range(1, num_days):
+                result += max(prices[day] - prices[day - 1], 0)
+            return result
+        
+        f = [[0 for _ in range(num_states + 1)] for _ in range(2)]
+        old, now = 0, 1
+        
+        for day in range(1, num_days + 1):
+            old, now = now, old
+            
+            # state 1, 3, 5: f[price][state] = max(f[price - 1][state], f[price - 1][state - 1] + prices[price - 1] - prices[price - 2])
+            for state in range(1, num_states + 1, 2):
+                f[now][state] = f[old][state]
+                if state > 1 and day > 1:
+                    f[now][state] = max(f[old][state], f[old][state - 1] + prices[day - 1] - prices[day - 2])
+
+            # states 2, 4: f[price][state] = max(f[price - 1][state - 1], f[price - 1][state] + prices[price - 1] - prices[price - 2])
+            for state in range(2, num_states + 1, 2):
+                f[now][state] = f[old][state - 1]
+                if day > 1:
+                    f[now][state] = max(f[old][state - 1], f[old][state] + prices[day - 1] - prices[day - 2])
+
+        result = float('-inf')
+        for state in range(1, num_states + 1, 2):
+            result = max(result, f[now][state])
+
+        return result        
+        
