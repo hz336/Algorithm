@@ -37,8 +37,6 @@ class Solution:
         num_days = len(prices)
         num_states = 2 * 2 + 1
         f = [[0 for _ in range(num_states + 1)] for _ in range(num_days + 1)]
-        for state in range(2, num_states + 1):
-            f[0][state] = -math.inf
 
         for day in range(1, num_days + 1):
             # state 1, 3, 5: f[day][state] = max(f[day - 1][state], f[day - 1][state - 1] + prices[day - 1] - prices[day - 2])
@@ -53,7 +51,7 @@ class Solution:
                 if day > 1:
                     f[day][state] = max(f[day][state], f[day - 1][state] + prices[day - 1] - prices[day - 2])
 
-        result = -math.inf
+        result = float('-inf')
         for state in range(1, num_states + 1, 2):
             result = max(result, f[num_days][state])
 
