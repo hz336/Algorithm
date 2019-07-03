@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3077b666-4bca-417d-9844-cec1d85e8e0e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Four.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Four.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Sort/! selection_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Sort/selection_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Sort/quick_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Sort/! quick_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Two Pointers/! E Intersection of Two Arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Two Pointers/! E Intersection of Two Arrays.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Two Pointers/! E Two Sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Two Pointers/! E Two Sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LintCode/Two Pointers/Merge Two Sorted Arrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Design/Singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Design/! Singleton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Design/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Design/! processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/Design/threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Design/! threading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LintCode/DS - Build In/Maximum Subarray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LintCode/DS - Build In/strStr.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,85 +26,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Two Pointers/! E Two Sum.py">
+        <entry file="file://$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="722">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Two Pointers/! E Two Sum II - Input array is sorted.py">
+        <entry file="file://$PROJECT_DIR$/LeetCode/Design/Shape Factory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-148" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/Design/Toy Factory.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Sort/! quick_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Sort/selection_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LintCode/Two Pointers/Two Sum - Closest to target.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Minimum Path Sum.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/DP/E Longest Continuous Increasing Subsequence.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Maximum Product Subarray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/DP/! E Maximum Subarray.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/LintCode/DS - Linked List/LRU Cache.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Sort/! merge_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/LeetCode/Design/! Singleton.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -141,9 +90,9 @@
         <option value="$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Two.py" />
         <option value="$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Four.py" />
         <option value="$PROJECT_DIR$/LeetCode/Two Pointers/! E Intersection of Two Arrays.py" />
-        <option value="$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py" />
         <option value="$PROJECT_DIR$/LeetCode/Two Pointers/! E Two Sum.py" />
         <option value="$PROJECT_DIR$/LeetCode/DP/! E Maximum Subarray.py" />
+        <option value="$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py" />
       </list>
     </option>
   </component>
@@ -172,19 +121,13 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+              <item name="LintCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="DS - Linked List" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -358,7 +301,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561601599890</updated>
       <workItem from="1561601603689" duration="1555000" />
-      <workItem from="1561604588106" duration="16099000" />
+      <workItem from="1561604588106" duration="16671000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1561604007343</created>
@@ -371,7 +314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17654000" />
+    <option name="totallyTimeSpent" value="18226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />
@@ -452,53 +395,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Build In/E Longest Common Prefix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Jump Game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DFS/M Subsets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DFS/M Subsets II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/Binary Search/! M Search in Rotated Sorted Array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/Binary Search/! H Median of Two Sorted Arrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/Binary Search/Find K Closest Elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/Binary Search/Longest Palindromic Substring.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -651,20 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/DS - Build In/strStr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/DS - Build In/strStr II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/Binary Search/Divide Two Integers.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -677,13 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
@@ -744,10 +619,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/DP/! E Maximum Subarray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DS - Build In/Maximum Subarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DS - Build In/Maximum Subarray II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DS - Build In/Maximum Subarray IV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DS - Build In/strStr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DS - Build In/strStr II.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Design/! Singleton.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Design/Shape Factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Design/Toy Factory.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DS - Linked List/LRU Cache.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
