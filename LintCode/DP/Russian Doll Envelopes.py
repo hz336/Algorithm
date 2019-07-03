@@ -107,3 +107,4 @@ class Solution_v3:
                     f[curr] = max(f[curr], f[prev] + 1)
 
         return max(f)
+

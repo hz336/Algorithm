@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3077b666-4bca-417d-9844-cec1d85e8e0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Two.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/DS - Linked List/M Reverse Linked List II.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DS - Linked List/! M Reverse Linked List II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LintCode/DP/Russian Doll Envelopes.py" beforeDir="false" afterPath="$PROJECT_DIR$/LintCode/DP/Russian Doll Envelopes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LintCode/DS - Heap/Merge K Sorted Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/LintCode/DS - Heap/Merge K Sorted Lists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +20,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LintCode/DS - Heap/Merge K Sorted Lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="225">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LintCode/DP/Longest Increasing Subsequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-828" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LintCode/DP/Russian Doll Envelopes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="689">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Decode Ways.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LintCode/DP/Perfect Squares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -57,6 +90,8 @@
         <option value="$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Two.py" />
         <option value="$PROJECT_DIR$/LeetCode/DS - Heap/! Qishi Quiz1.py" />
         <option value="$PROJECT_DIR$/LeetCode/DS - Heap/! Qishi Quiz1 TODO.py" />
+        <option value="$PROJECT_DIR$/LintCode/DS - Heap/Merge K Sorted Lists.py" />
+        <option value="$PROJECT_DIR$/LintCode/DP/Russian Doll Envelopes.py" />
       </list>
     </option>
   </component>
@@ -85,7 +120,19 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="LintCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +306,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561601599890</updated>
       <workItem from="1561601603689" duration="1555000" />
-      <workItem from="1561604588106" duration="6419000" />
+      <workItem from="1561604588106" duration="7653000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1561604007343</created>
@@ -272,10 +319,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7974000" />
+    <option name="totallyTimeSpent" value="9208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="954" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="949" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25213677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -380,13 +428,6 @@
     <entry file="file://$PROJECT_DIR$/LintCode/DP/Regular Expression Matching.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-954" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/DP/Perfect Squares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Sort/quick_sort.py">
@@ -495,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Decode Ways.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Minimum Path Sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -522,9 +556,6 @@
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/DP/Longest Increasing Subsequence.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/DP/Longest Common Subsequence.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -635,8 +666,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/DS - Heap/Merge K Sorted Lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="225">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DP/Longest Increasing Subsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DP/Russian Doll Envelopes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Decode Ways.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DP/Perfect Squares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
