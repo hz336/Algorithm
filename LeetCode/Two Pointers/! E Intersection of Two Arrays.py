@@ -36,7 +36,8 @@ class Solution_v2:
         return results
 
 """
-Version 3: sort & binary search
+Follow up: Can you do it in O(1) space complexity?
+
 Time Complexity: binary search nums1 O(nlogn) + traverse nums2 O(mlogn) = O((m + n)logn) 
 Space Complexity: O(1)
 """
@@ -75,7 +76,8 @@ class Solution_v3:
 
 
 """
-Version 4: two pointers if already sorted
+Follow up: what if two pointers are already sorted?
+
 Time Complexity: O(m + n)
 Space Complexity: O(1)
 """
@@ -103,3 +105,6 @@ class Solution_v4:
                 left += 1
 
         return result
+
+
+
