@@ -7,7 +7,13 @@ recently used item before inserting a new item.
 """
 
 
-class LinkedNode:
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
+
+
+class ListedNode:
     def __init__(self, key=None, val=None, prev=None, next=None):
         self.key = key
         self.val = val
@@ -19,7 +25,7 @@ class LRUCache:
     def __init__(self, capacity: int):
         self.mapping = {}
         self.capacity = capacity
-        self.head, self.tail = LinkedNode(), LinkedNode()
+        self.head, self.tail = ListedNode(), ListedNode()
         self.head.next = self.tail
         self.tail.prev = self.head
 
@@ -32,13 +38,12 @@ class LRUCache:
         curr.prev.next = curr.next
         curr.next.prev = curr.prev
 
-        # Move current to tail
-        self.move_to_tail(current)
+        # Move to tail
+        self.move_to_tail(curr)
 
         return self.mapping[key].val
 
     def put(self, key: int, value: int) -> None:
-        # self.get() function will move key to the end of the cache
         if self.get(key) != -1:
             self.mapping[key].val = value
             return
@@ -48,14 +53,15 @@ class LRUCache:
             self.head.next = self.head.next.next
             self.head.next.prev = self.head
 
-        node = LinkedNode(key, value)
-        self.mapping[key] = node
-        self.move_to_tail(node)
+        curr = ListedNode(key, value)
+        self.mapping[key] = curr
+        self.move_to_tail(curr)
 
     def move_to_tail(self, curr):
         curr.prev = self.tail.prev
         self.tail.prev = curr
         curr.prev.next = curr
         curr.next = self.tail
+
 
 
