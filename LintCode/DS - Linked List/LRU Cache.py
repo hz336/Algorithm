@@ -16,25 +16,14 @@ class LinkedNode:
 
 
 class LRUCache:
-    """
-    @param: capacity: An integer
-    """
-
     def __init__(self, capacity):
-        # do intialization if necessary
         self.mapping = {}
         self.capacity = capacity
         self.head, self.tail = LinkedNode(), LinkedNode()
         self.head.next = self.tail
         self.tail.prev = self.head
 
-    """
-    @param: key: An integer
-    @return: An integer
-    """
-
     def get(self, key):
-        # write your code here
         if key not in self.mapping:
             return -1
 
@@ -48,14 +37,7 @@ class LRUCache:
 
         return self.mapping[key].val
 
-    """
-    @param: key: An integer
-    @param: value: An integer
-    @return: nothing
-    """
-
     def set(self, key, value):
-        # write your code here
         # self.get() function will move key to the end of the cache
         if self.get(key) != -1:
             self.mapping[key].val = value

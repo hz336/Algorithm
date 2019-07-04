@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3077b666-4bca-417d-9844-cec1d85e8e0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Design/Singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Design/! Singleton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Design/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Design/! processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/Design/threading.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Design/! threading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LintCode/DS - Build In/Maximum Subarray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LintCode/DS - Build In/strStr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LintCode/DS - Linked List/LRU Cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/LintCode/DS - Linked List/LRU Cache.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,35 +19,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LintCode/DS - Linked List/LRU Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
+            <state relative-caret-position="92">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Design/Shape Factory.py">
+        <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Linked List Cycle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-148" />
+            <state relative-caret-position="362">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Design/Toy Factory.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LintCode/DS - Linked List/LRU Cache.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Merge Two Sorted Lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Design/! Singleton.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Reverse Linked List.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -93,6 +92,7 @@
         <option value="$PROJECT_DIR$/LeetCode/Two Pointers/! E Two Sum.py" />
         <option value="$PROJECT_DIR$/LeetCode/DP/! E Maximum Subarray.py" />
         <option value="$PROJECT_DIR$/LeetCode/Design/M Sparse Matrix Multiplication.py" />
+        <option value="$PROJECT_DIR$/LintCode/DS - Linked List/LRU Cache.py" />
       </list>
     </option>
   </component>
@@ -122,12 +122,6 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="LintCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="LintCode" type="462c0819:PsiDirectoryNode" />
-              <item name="DS - Linked List" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,7 +295,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561601599890</updated>
       <workItem from="1561601603689" duration="1555000" />
-      <workItem from="1561604588106" duration="16671000" />
+      <workItem from="1561604588106" duration="18516000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1561604007343</created>
@@ -314,10 +308,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18226000" />
+    <option name="totallyTimeSpent" value="20071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3015873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -429,15 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Reverse Linked List.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Two Pointers/M Two Sum III - Data structure design.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Linked List Cycle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108" />
       </provider>
@@ -471,13 +458,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/Two Pointers/Two Sum - Data structure design.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Merge Two Sorted Lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/DS - Build In/! E Intersection of Two Arrays.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -677,8 +657,33 @@
     <entry file="file://$PROJECT_DIR$/LeetCode/Design/Toy Factory.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Merge Two Sorted Lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Reverse Linked List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Linked List Cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/DS - Linked List/LRU Cache.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
