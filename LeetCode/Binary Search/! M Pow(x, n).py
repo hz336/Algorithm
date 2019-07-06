@@ -16,7 +16,10 @@ Output: 0.25000
 Explanation: 2-2 = 1/22 = 1/4 = 0.25
 """
 
-
+"""
+Time Complexity: O(logn)
+Space Complexity: O(1)
+"""
 class Solution:
     def myPow(self, x: 'float', n: 'int') -> 'float':
         if n == 0:
