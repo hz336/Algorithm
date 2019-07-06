@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3077b666-4bca-417d-9844-cec1d85e8e0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LintCode/DS - Heap/Ugly Number II.py" beforeDir="false" />
-    </list>
+    <list default="true" id="3077b666-4bca-417d-9844-cec1d85e8e0e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LintCode/DS - Heap/Merge K Sorted Lists.py">
+        <entry file="file://$PROJECT_DIR$/LeetCode/DS - Heap/! H Merge k Sorted Lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="211">
+              <caret line="48" column="75" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -80,15 +77,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
               <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Merge Two Sorted Lists.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -143,6 +131,7 @@
         <option value="$PROJECT_DIR$/LeetCode/DS - Linked List/! M LRU Cache.py" />
         <option value="$PROJECT_DIR$/LeetCode/DS - Heap/E Ugly Number.py" />
         <option value="$PROJECT_DIR$/LeetCode/DS - Heap/M Ugly Number II.py" />
+        <option value="$PROJECT_DIR$/LeetCode/DS - Heap/! H Merge k Sorted Lists.py" />
       </list>
     </option>
   </component>
@@ -171,7 +160,19 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="DS - Heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="LintCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="LintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="DS - Heap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,7 +346,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561601599890</updated>
       <workItem from="1561601603689" duration="1555000" />
-      <workItem from="1561604588106" duration="22771000" />
+      <workItem from="1561604588106" duration="24803000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1561604007343</created>
@@ -358,11 +359,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24326000" />
+    <option name="totallyTimeSpent" value="26358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3015873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,11 +440,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/M Sort List.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Two Pointers/M Valid Triangle Number.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -735,8 +730,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/DS - Heap/Merge K Sorted Lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="396">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Heap/! H Merge k Sorted Lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="48" column="75" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
         </state>
       </provider>
     </entry>
