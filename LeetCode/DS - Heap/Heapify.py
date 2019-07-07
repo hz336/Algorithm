@@ -18,17 +18,8 @@ Example
     Given [3,2,1,4,5], return [1,2,3,4,5] or any legal heap array.
 """
 
-import heapq
-
-
 class Solution_v1:
-    """
-    @param: A: Given an integer array
-    @return: nothing
-    """
-
     def heapify(self, A):
-        # write your code here
         for i in range(len(A) // 2, -1, -1):
             self.siftdown(A, i)
 
@@ -47,6 +38,10 @@ class Solution_v1:
 
             A[index], A[smallest] = A[smallest], A[index]
             index = smallest
+
+
+
+import heapq
 
 
 class Solution_v2:
