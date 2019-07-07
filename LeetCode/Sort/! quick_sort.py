@@ -1,3 +1,9 @@
+"""
+Average Time Complexity: O(nlogn)
+Worst Time Complexity: O(n^2)
+"""
+
+
 def quick_sort(lst):
     quick_sort_helper(lst, 0, len(lst) - 1)
     return lst
