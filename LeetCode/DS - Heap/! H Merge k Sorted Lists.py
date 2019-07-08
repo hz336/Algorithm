@@ -14,38 +14,7 @@ Output: 1->1->2->3->4->4->5->6
 
 
 """
-Priority Queue
-Time Complexity: O(nlogk). Insertion into a min heap takes O(logk), and there are N points in total.
-Space Complexity: O(k) for priority queue.
-"""
-import heapq
-
-
-class Solution:
-    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
-        if lists is None or len(lists) == 0:
-            return
-
-        heap = []
-        for index, node in enumerate(lists):
-            if node:
-                heapq.heappush(heap, (node.val, index, node))
-
-        dummy = ListNode(0)
-        p = dummy
-        while heap:
-            value, index, node = heapq.heappop(heap)
-            p.next = node
-            p = p.next
-
-            if node.next:
-                heapq.heappush(heap, (node.next.val, index, node.next))
-
-        return dummy.next
-
-
-"""
-Merge Sort
+Best Answer: Merge Sort
 Time Complexity: O(nlogk). O(logk) layers with O(n) for merging per layer. 
 Space Complexity: O(1) 
 """
@@ -87,3 +56,35 @@ class Solution:
             p.next = list1
 
         return dummy.next
+
+
+"""
+Priority Queue
+Time Complexity: O(nlogk). Insertion into a min heap takes O(logk), and there are N points in total.
+Space Complexity: O(k) for priority queue.
+"""
+import heapq
+
+
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        if lists is None or len(lists) == 0:
+            return
+
+        heap = []
+        for index, node in enumerate(lists):
+            if node:
+                heapq.heappush(heap, (node.val, index, node))
+
+        dummy = ListNode(0)
+        p = dummy
+        while heap:
+            value, index, node = heapq.heappop(heap)
+            p.next = node
+            p = p.next
+
+            if node.next:
+                heapq.heappush(heap, (node.next.val, index, node.next))
+
+        return dummy.next
+

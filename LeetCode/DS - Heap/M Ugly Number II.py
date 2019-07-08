@@ -12,7 +12,7 @@ Explanation: 1, 2, 3, 4, 5, 6, 8, 9, 10, 12 is the sequence of the first 10 ugly
 
 
 """
-DP / Greedy Algo
+Best Answer: DP / Greedy Algo
 Time Complexity: O(n)
 Space Complexity: O(n)
 """
