@@ -89,15 +89,14 @@ class Solution_v2:
     """
 
     def longestIncreasingSubsequence(self, A):
-        # write your code here
-        if A is None or len(A) == 0:
+        if nums is None or len(nums) == 0:
             return 0
 
-        len_A = len(A)
-        f = [1] * len_A
-        for curr in range(len_A):
+        length = len(nums)
+        f = [1] * length
+        for curr in range(length):
             for prev in range(curr):
-                if A[prev] < A[curr]:
+                if nums[prev] < nums[curr]:
                     f[curr] = max(f[curr], f[prev] + 1)
 
         return max(f)
