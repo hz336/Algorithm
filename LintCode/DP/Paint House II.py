@@ -31,8 +31,7 @@ class Solution:
         if costs is None or len(costs) == 0 or len(costs[0]) == 0:
             return 0
 
-        num_houses = len(costs)
-        num_colors = len(costs[0])
+        num_houses, num_colors = len(costs), len(costs[0])
         f = [[0 for _ in range(num_colors)] for _ in range(num_houses + 1)]
 
         for house in range(num_houses):
