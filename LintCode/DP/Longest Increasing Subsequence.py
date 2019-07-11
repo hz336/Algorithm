@@ -77,26 +77,3 @@ class Solution:
         else:
             return end
 
-
-"""
-Dynamic Programming
-Time Complexity: O(n^2)
-"""
-class Solution_v2:
-    """
-    @param nums: An integer array
-    @return: The length of LIS (longest increasing subsequence)
-    """
-
-    def longestIncreasingSubsequence(self, A):
-        if nums is None or len(nums) == 0:
-            return 0
-
-        length = len(nums)
-        f = [1] * length
-        for curr in range(length):
-            for prev in range(curr):
-                if nums[prev] < nums[curr]:
-                    f[curr] = max(f[curr], f[prev] + 1)
-
-        return max(f)

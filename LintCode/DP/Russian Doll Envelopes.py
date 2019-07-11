@@ -81,30 +81,3 @@ class Solution:
         return end
 
 
-"""
-Dynamic Programming
-Time Complexity: O(N^2) 
-"""
-class Solution_v3:
-    """
-    @param: envelopes: a number of envelopes with widths and heights
-    @return: the maximum number of envelopes
-    """
-
-    def maxEnvelopes(self, envelopes):
-        # write your code here
-        if envelopes is None or len(envelopes) == 0:
-            return 0
-
-        envelopes.sort(key=lambda x: (x[0], x[1]))
-
-        n = len(envelopes)
-        f = [1] * n
-
-        for curr in range(n):
-            for prev in range(curr):
-                if envelopes[prev][0] < envelopes[curr][0] and envelopes[prev][1] < envelopes[curr][1]:
-                    f[curr] = max(f[curr], f[prev] + 1)
-
-        return max(f)
-
