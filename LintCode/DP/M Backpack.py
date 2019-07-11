@@ -18,14 +18,7 @@ Time Complexity: O(mn)
 Space complexity: O(m)
 """
 class Solution:
-    """
-    @param m: An integer m denotes the size of a backpack
-    @param A: Given n items with size A[i]
-    @return: The maximum size
-    """
-
     def backPack(self, m, A):
-        # write your code here
         if A is None or len(A) == 0:
             return False
 
@@ -37,8 +30,6 @@ class Solution:
             for weight in range(m, 0, -1):
                 if weight >= A[item - 1] and f[weight - A[item - 1]]:
                     f[weight] = True
-
-            print(f)
 
         for weight in range(m, -1, -1):
             if f[weight] is True:
@@ -55,14 +46,7 @@ Time Complexity: O(mn)
 Space complexity: O(2m)
 """
 class Solution_v2:
-    """
-    @param m: An integer m denotes the size of a backpack
-    @param A: Given n items with size A[i]
-    @return: The maximum size
-    """
-
     def backPack(self, m, A):
-        # write your code here
         if A is None or len(A) == 0:
             return False
 
@@ -88,14 +72,7 @@ Time Complexity: O(mn)
 Space complexity: O(mn)
 """
 class Solution_v3:
-    """
-    @param m: An integer m denotes the size of a backpack
-    @param A: Given n items with size A[i]
-    @return: The maximum size
-    """
-
     def backPack(self, m, A):
-        # write your code here
         if A is None or len(A) == 0:
             return False
 
@@ -112,5 +89,3 @@ class Solution_v3:
         for weight in range(m, -1, -1):
             if f[n][weight] is True:
                 return weight
-
-
