@@ -26,8 +26,6 @@ Explanation: There are three ways to climb to the top.
 Time Complexity: O(n)
 Space Complexity: O(n)
 """
-
-
 class Solution:
     def climbStairs(self, n: int) -> int:
         f = [0] * (1 + n)
@@ -39,3 +37,18 @@ class Solution:
 
         return f[n]
             
+"""
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
+class Solution:
+    def climbStairs(self, n: int) -> int:
+        f = [0] * 3
+        f[0] = 1
+        for i in range(1, n + 1): 
+            f[i % 3] = f[i % 3 - 1]
+            if i >= 2: 
+                f[i % 3] += f[i % 3 - 2]
+                
+        return f[n % 3]
+    
