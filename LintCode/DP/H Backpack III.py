@@ -9,22 +9,16 @@ Given 4 items with size [2, 3, 5, 7] and value [1, 5, 2, 4], and a backpack with
 import math
 
 
-
-
 """
 Time Complexity: O(mn)
 Space complexity: O(m)
+
+这题从右往走是行不通的，画图可知。
+先从二维数组开始，找规律，可以优化到一维数组。直接写一维，谁也做不到。
+不要背诵到底是从左往右，还是从右往左。
 """
 class Solution:
-    """
-    @param A: an integer array
-    @param V: an integer array
-    @param m: An integer
-    @return: an array
-    """
-
     def backPackIII(self, A, V, m):
-        # write your code here
         if A is None or V is None:
             return 0
 
@@ -38,3 +32,5 @@ class Solution:
                     f[weight] = max(f[weight], f[weight - A[item - 1]] + V[item - 1])
 
         return max(f)
+
+

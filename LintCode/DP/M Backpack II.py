@@ -8,85 +8,85 @@ Challenge
 O(n x m) memory is acceptable, can you do it in O(m) memory?
 """
 
-import math
-
 
 """
 Time Complexity: O(mn)
 Space complexity: O(m)
 """
-class Solution_v1:
-    """
-    @param m: An integer m denotes the size of a backpack
-    @param A: Given n items with size A[i]
-    @param V: Given n items with value V[i]
-    @return: The maximum value
-    """
-
+class Solution:
     def backPackII(self, m, A, V):
-        # write your code here
-        if A is None or V is None:
+        if A is None or V is None or len(A) == 0 or len(V) == 0:
             return 0
 
         n = len(A)
-        f = [-math.inf] * (m + 1)
+        f = [float('-inf') for _ in range(m + 1)]
         f[0] = 0
 
-        for item in range(1, n + 1):
-            for weight in range(m, -1, -1):
-                if weight >= A[item - 1] and f[weight - A[item - 1]] != -math.inf:
-                    f[weight] = max(f[weight], f[weight - A[item - 1]] + V[item - 1])
+        for i in range(1, n + 1):
+            for j in range(m, -1, -1):
+                if j >= A[i - 1] and f[j - A[i - 1]] != float('-inf'):
+                    f[j] = max(f[j], f[j - A[i - 1]] + V[i - 1])
 
         return max(f)
 
 
 """
 Time Complexity: O(mn)
-Space complexity: O(mn)
+Space complexity: O(2n)
 """
-class Solution_v2:
-    """
-    @param m: An integer m denotes the size of a backpack
-    @param A: Given n items with size A[i]
-    @param V: Given n items with value V[i]
-    @return: The maximum value
-    """
-
+class Solution:
     def backPackII(self, m, A, V):
-        # write your code here
-        if A is None or V is None:
+        if A is None or V is None or len(A) == 0 or len(V) == 0:
             return 0
 
         n = len(A)
-        f = [[-math.inf for _ in range(m + 1)] for _ in range(n + 1)]
-        for item in range(n + 1):
-            f[item][0] = 0
+        f = [[float('-inf') for _ in range(m + 1)] for _ in range(2)]
+        old, now = 0, 1
+        f[old][0] = f[now][0] = 0
 
-        for item in range(1, n + 1):
-            for weight in range(1, m + 1):
-                f[item][weight] = f[item - 1][weight]
-                if weight >= A[item - 1] and f[item - 1][weight - A[item - 1]] != -math.inf:
-                    f[item][weight] = max(f[item][weight], f[item - 1][weight - A[item - 1]] + V[item - 1])
+        for i in range(1, n + 1):
+            old, now = now, old
+            for j in range(m + 1):
+                f[now][j] = f[old][j]
+                if j >= A[i - 1] and f[old][j - A[i - 1]] != float('-inf'):
+                    f[now][j] = max(f[old][j], f[old][j - A[i - 1]] + V[i - 1])
 
-        print(f)
+        return max(f[now][:])
 
-        return max(f[n][:])
 
 """
 Time Complexity: O(mn)
 Space complexity: O(mn)
-Optimal Path 
 """
-class Solution_v3:
-    """
-    @param m: An integer m denotes the size of a backpack
-    @param A: Given n items with size A[i]
-    @param V: Given n items with value V[i]
-    @return: The maximum value
-    """
-
+class Solution:
     def backPackII(self, m, A, V):
-        # write your code here
+        if A is None or V is None or len(A) == 0 or len(V) == 0:
+            return 0
+
+        n = len(A)
+        f = [[float('-inf') for _ in range(m + 1)] for _ in range(n + 1)]
+        for i in range(n + 1):
+            f[i][0] = 0
+
+        for i in range(1, n + 1):
+            for j in range(m + 1):
+                f[i][j] = f[i - 1][j]
+                if j >= A[i - 1] and f[i - 1][j - A[i - 1]] != float('-inf'):
+                    f[i][j] = max(f[i - 1][j], f[i - 1][j - A[i - 1]] + V[i - 1])
+
+        return max(f[n][:])
+
+
+"""
+Time Complexity: O(mn)
+Space complexity: O(mn)
+Print Optimal Path 
+"""
+import math
+
+
+class Solution_v3:
+    def backPackII(self, m, A, V):
         if A is None or V is None:
             return 0
 

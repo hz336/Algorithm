@@ -18,14 +18,7 @@ Time Complexity: O(mn)
 Space complexity: O(m)
 """
 class Solution:
-    """
-    @param nums: an integer array and all positive numbers, no duplicates
-    @param target: An integer
-    @return: An integer
-    """
-
     def backPackIV(self, nums, target):
-        # write your code here
         if nums is None or len(nums) == 0:
             return 0
 
