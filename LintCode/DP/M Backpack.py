@@ -14,6 +14,7 @@ O(n x m) memory is also acceptable if you do not know how to optimize memory.
 """
 
 """
+可行型DP
 Time Complexity: O(mn)
 Space complexity: O(m)
 """
