@@ -10,6 +10,8 @@ import math
 
 
 """
+最值型DP
+
 Time Complexity: O(mn)
 Space complexity: O(m)
 
