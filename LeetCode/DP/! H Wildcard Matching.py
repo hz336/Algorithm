@@ -1,13 +1,14 @@
 """
-Given an input string (s) and a pattern (p), implement regular expression matching with support for '.' and '*'.
+Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*'.
 
-'.' Matches any single character.
-'*' Matches zero or more of the preceding element.
+'?' Matches any single character.
+'*' Matches any sequence of characters (including the empty sequence).
 The matching should cover the entire input string (not partial).
 
 Note:
+
 s could be empty and contains only lowercase letters a-z.
-p could be empty and contains only lowercase letters a-z, and characters like . or *.
+p could be empty and contains only lowercase letters a-z, and characters like ? or *.
 
 Example 1:
 Input:
@@ -19,37 +20,36 @@ Explanation: "a" does not match the entire string "aa".
 Example 2:
 Input:
 s = "aa"
-p = "a*"
+p = "*"
 Output: true
-Explanation: '*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes "aa".
+Explanation: '*' matches any sequence.
 
 Example 3:
 Input:
-s = "ab"
-p = ".*"
-Output: true
-Explanation: ".*" means "zero or more (*) of any character (.)".
+s = "cb"
+p = "?a"
+Output: false
+Explanation: '?' matches 'c', but the second letter is 'a', which does not match 'b'.
 
 Example 4:
 Input:
-s = "aab"
-p = "c*a*b"
+s = "adceb"
+p = "*a*b"
 Output: true
-Explanation: c can be repeated 0 times, a can be repeated 1 time. Therefore, it matches "aab".
+Explanation: The first '*' matches the empty sequence, while the second '*' matches the substring "dce".
 
 Example 5:
 Input:
-s = "mississippi"
-p = "mis*is*p*."
+s = "acdcb"
+p = "a*c?b"
 Output: false
 """
+
 
 """
 最值型DP
 Time Complexity: O(mn)
 Space Complexity: O(mn)
-
-这道题里面 i vs 0, j vs 1 and j vs 2很容易出错
 """
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
@@ -67,16 +67,15 @@ class Solution:
                     continue
 
                 if p[j - 1] != '*':
-                    if i > 0 and (p[j - 1] == '.' or s[i - 1] == p[j - 1]):
+                    if i > 0 and (p[j - 1] == '?' or s[i - 1] == p[j - 1]):
                         f[i][j] = f[i][j] or f[i - 1][j - 1]
                 else:
-                    if j >= 2:
-                        # c* means zero c
-                        f[i][j] = f[i][j] or f[i][j - 2]
+                    # * means zero
+                    f[i][j] = f[i][j] or f[i][j - 1]
 
-                        # c* means at least one c, and c matches s[i - 1]
-                        if p[j - 2] == '.' or (i >= 1 and p[j - 2] == s[i - 1]):
-                            f[i][j] = f[i][j] or f[i - 1][j]
+                    # * means at least one character
+                    if i >= 1:
+                        f[i][j] = f[i][j] or f[i - 1][j]
 
         return f[m][n]
 
@@ -86,14 +85,7 @@ class Solution:
 DFS with memorization (Maybe can be ignored)
 """
 class Solution:
-    """
-    @param s: A string
-    @param p: A string includes "?" and "*"
-    @return: is Match?
-    """
-
     def isMatch(self, s, p):
-        # write your code here
         if s is None or p is None:
             return False
 
@@ -133,16 +125,6 @@ class Solution:
 
     def char_match(self, s_char, p_char):
         return s_char == p_char or p_char == '?'
-
-
-
-
-
-
-
-
-
-
 
 
 
