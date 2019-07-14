@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3077b666-4bca-417d-9844-cec1d85e8e0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LeetCode/DP/E Longest Continuous Increasing Subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DP/! E Longest Continuous Increasing Subsequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/DP/E Unique Paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DP/! E Unique Paths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/DP/M Unique Paths II.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DP/! M Unique Paths II.py" afterDir="false" />
-    </list>
+    <list default="true" id="3077b666-4bca-417d-9844-cec1d85e8e0e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +36,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/DP/! E Longest Continuous Increasing Subsequence.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1140">
               <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LintCode/DP/Regular Expression Matching.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="72" lean-forward="true" selection-start-line="21" selection-end-line="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/DP/! H Regular Expression Matching.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -64,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LintCode/DP/Best Time to Buy and Sell Stock.py" />
         <option value="$PROJECT_DIR$/LeetCode/DS - Heap/! Qishi Quiz1.py" />
         <option value="$PROJECT_DIR$/LeetCode/DS - Heap/! Qishi Quiz1 TODO.py" />
         <option value="$PROJECT_DIR$/LintCode/DS - Heap/Merge K Sorted Lists.py" />
@@ -115,6 +128,7 @@
         <option value="$PROJECT_DIR$/LintCode/DP/Longest Common Subsequence.py" />
         <option value="$PROJECT_DIR$/LeetCode/DP/H Interleaving String.py" />
         <option value="$PROJECT_DIR$/LeetCode/DP/! H Edit Distance.py" />
+        <option value="$PROJECT_DIR$/LeetCode/DP/! H Regular Expression Matching.py" />
       </list>
     </option>
   </component>
@@ -330,7 +344,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561601599890</updated>
       <workItem from="1561601603689" duration="1555000" />
-      <workItem from="1561604588106" duration="50071000" />
+      <workItem from="1561604588106" duration="51420000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1561604007343</created>
@@ -343,10 +357,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51626000" />
+    <option name="totallyTimeSpent" value="52975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49941522" visible="true" weight="0.3015873" />
       <window_info id="Structure" order="1" sideWeight="0.5005848" side_tool="true" weight="0.3015873" />
@@ -424,20 +439,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/DP/H Paint House II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DP/! E Best Time to Buy and Sell Stock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/DP/! E Best Time to Buy and Sell Stock II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -726,6 +727,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DP/Regular Expression Matching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="72" lean-forward="true" selection-start-line="21" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DP/! H Regular Expression Matching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
