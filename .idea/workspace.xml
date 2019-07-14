@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3077b666-4bca-417d-9844-cec1d85e8e0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LintCode/DP/Edit Distance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LintCode/DP/M Longest Common Subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/LintCode/DP/! M Longest Common Subsequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/DP/E Longest Continuous Increasing Subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DP/! E Longest Continuous Increasing Subsequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/DP/E Unique Paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DP/! E Unique Paths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/DP/M Unique Paths II.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DP/! M Unique Paths II.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/DP/! H Edit Distance.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="825">
               <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/DP/! E Longest Continuous Increasing Subsequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
         </entry>
@@ -321,7 +330,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561601599890</updated>
       <workItem from="1561601603689" duration="1555000" />
-      <workItem from="1561604588106" duration="49476000" />
+      <workItem from="1561604588106" duration="50071000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1561604007343</created>
@@ -334,7 +343,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51031000" />
+    <option name="totallyTimeSpent" value="51626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
@@ -644,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DP/E Longest Continuous Increasing Subsequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/DP/! M Longest Increasing Subsequence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -658,7 +660,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Unique Paths II.py">
+    <entry file="file://$PROJECT_DIR$/LeetCode/DP/! M Unique Paths II.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Perfect Squares.py">
@@ -717,6 +719,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DP/! E Longest Continuous Increasing Subsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
