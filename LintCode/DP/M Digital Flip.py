@@ -89,3 +89,4 @@ class Solution_v2:
                     f[now][curr_digit] = min(f[now][curr_digit], f[old][prev_digit] + flip)
 
         return min(f[now][0], f[now][1])
+ 
