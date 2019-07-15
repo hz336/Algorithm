@@ -13,6 +13,7 @@ Return ["abc", "adc"]
 """
 
 """
+Too hard, can ignore
 Time Complexity:    O(number of prefix * N)
 Space Complexity:   O(number of prefix * N + longest length of word * N)
 Data Structure:     Trie
