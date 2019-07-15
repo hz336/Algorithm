@@ -5,27 +5,26 @@ For now, suppose you are a dominator of m 0s and n 1s respectively. On the other
 
 Now your task is to find the maximum number of strings that you can form with given m 0s and n 1s. Each 0 and 1 can be used at most once.
 
-Example
-Given strs = ["10", "0001", "111001", "1", "0"], m = 5, n = 3
-return 4
 
-Explanation: This are totally 4 strings can be formed by the using of 5 0s and 3 1s, which are 10,0001,1,0
+Example 1:
+Input: Array = {"10", "0001", "111001", "1", "0"}, m = 5, n = 3
+Output: 4
+
+Explanation: This are totally 4 strings can be formed by the using of 5 0s and 3 1s, which are “10,”0001”,”1”,”0”
+
+Example 2:
+Input: Array = {"10", "0", "1"}, m = 1, n = 1
+Output: 2
+Explanation: You could form "10", but then you'd have nothing left. Better form "0" and "1".
 """
 
 """
+Quesiton is a little bit ambiguous, so can be ignored.
 Time Complexity: O(kmn)
 Space Complexity: O(kmn)
 """
 class Solution_v1:
-    """
-    @param strs: an array with strings include only 0 and 1
-    @param m: An integer
-    @param n: An integer
-    @return: find the maximum number of strings
-    """
-
     def findMaxForm(self, strs, m, n):
-        # write your code here
         if strs is None or len(strs) == 0:
             return 0
 
@@ -58,15 +57,7 @@ Time Complexity: O(kmn)
 Space Complexity: O(2mn)
 """
 class Solution_v2:
-    """
-    @param strs: an array with strings include only 0 and 1
-    @param m: An integer
-    @param n: An integer
-    @return: find the maximum number of strings
-    """
-
     def findMaxForm(self, strs, m, n):
-        # write your code here
         if strs is None or len(strs) == 0:
             return 0
 
@@ -102,15 +93,7 @@ Time Complexity: O(kmn)
 Space Complexity: O(2mn)
 """
 class Solution_v3:
-    """
-    @param strs: an array with strings include only 0 and 1
-    @param m: An integer
-    @param n: An integer
-    @return: find the maximum number of strings
-    """
-
     def findMaxForm(self, strs, m, n):
-        # write your code here
         if strs is None or len(strs) == 0:
             return 0
 

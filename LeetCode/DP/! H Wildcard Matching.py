@@ -49,7 +49,7 @@ Output: false
 """
 最值型DP
 Time Complexity: O(mn)
-Space Complexity: O(mn)
+Space Complexity: O(mn), 滚动数组可以做到O(2n)，但是做到不O(n)
 """
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
