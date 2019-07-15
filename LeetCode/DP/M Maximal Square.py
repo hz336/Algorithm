@@ -16,13 +16,7 @@ Time Complexity: O(mn)
 Space Complexity: O(mn)
 """
 class Solution:
-    """
-    @param matrix: a matrix of 0 and 1
-    @return: an integer
-    """
-
-    def maxSquare(self, matrix):
-        # write your code here
+    def maximalSquare(self, matrix: List[List[str]]) -> int:
         if matrix is None or len(matrix) == 0 or len(matrix[0]) == 0:
             return 0
 
@@ -34,9 +28,9 @@ class Solution:
         for i in range(m):
             for j in range(n):
                 if i == 0 or j == 0:
-                    f[i][j] = matrix[i][j]
+                    f[i][j] = int(matrix[i][j])
                 else:
-                    if matrix[i][j] == 1:
+                    if matrix[i][j] == "1":
                         f[i][j] = min(f[i - 1][j], f[i][j - 1], f[i - 1][j - 1]) + 1
 
                 res = max(res, f[i][j])
