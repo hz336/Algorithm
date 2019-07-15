@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3077b666-4bca-417d-9844-cec1d85e8e0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/LeetCode/DP/! M Longest Increasing Subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DP/! M Longest Increasing Subsequence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LintCode/DP/Longest Increasing Subsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/LintCode/DP/Longest Increasing Subsequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/DP/H Russian Doll Envelopes.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DP/H Russian Doll Envelopes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LintCode/DP/Maximal Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/DP/M Maximal Square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LintCode/DP/Russian Doll Envelopes.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,68 +23,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LintCode/DP/Climbing Stairs II.py">
+        <entry file="file://$PROJECT_DIR$/LintCode/DP/H Coins in a Line III.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LintCode/DP/Drop Eggs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/DP/! M Longest Increasing Subsequence.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1021">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Binary Search/! M Pow(x, n).py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Binary Search/E Guess Number Higher or Lower.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LintCode/DP/H K Edit Distance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LintCode/DP/H Backpack III.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LintCode/DP/! M Longest Common Subsequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="480">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LintCode/DP/Word Break.py">
+        <entry file="file://$PROJECT_DIR$/LeetCode/DP/! M Longest Increasing Subsequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-155">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/DP/H Russian Doll Envelopes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="715">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LintCode/DP/Triangle.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Maximal Square.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -124,7 +106,6 @@
         <option value="$PROJECT_DIR$/LeetCode/DP/H Paint House II.py" />
         <option value="$PROJECT_DIR$/LeetCode/DP/! M Best Time to Buy and Sell Stock with Cooldown.py" />
         <option value="$PROJECT_DIR$/LeetCode/DP/! M Best Time to Buy and Sell Stock with Transaction Fee.py" />
-        <option value="$PROJECT_DIR$/LeetCode/DP/H Russian Doll Envelopes.py" />
         <option value="$PROJECT_DIR$/LintCode/DP/Russian Doll Envelopes.py" />
         <option value="$PROJECT_DIR$/LeetCode/DP/M Perfect Squares.py" />
         <option value="$PROJECT_DIR$/LeetCode/DP/H Palindrome Partitioning II.py" />
@@ -152,6 +133,7 @@
         <option value="$PROJECT_DIR$/LintCode/DP/H K Edit Distance.py" />
         <option value="$PROJECT_DIR$/LintCode/DP/Longest Increasing Subsequence.py" />
         <option value="$PROJECT_DIR$/LeetCode/DP/! M Longest Increasing Subsequence.py" />
+        <option value="$PROJECT_DIR$/LeetCode/DP/H Russian Doll Envelopes.py" />
       </list>
     </option>
   </component>
@@ -368,7 +350,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561601599890</updated>
       <workItem from="1561601603689" duration="1555000" />
-      <workItem from="1561604588106" duration="56141000" />
+      <workItem from="1561604588106" duration="56381000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1561604007343</created>
@@ -381,10 +363,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57696000" />
+    <option name="totallyTimeSpent" value="57936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49941522" visible="true" weight="0.3015873" />
       <window_info id="Structure" order="1" sideWeight="0.5005848" side_tool="true" weight="0.3015873" />
@@ -657,25 +640,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DP/H Russian Doll Envelopes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Distinct Subsequences.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
           <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/DP/H Coins in a Line III.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/DP/Russian Doll Envelopes.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/DP/Rogue Knight Sven.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -696,13 +666,7 @@
         <state relative-caret-position="-455" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/DP/Maximal Square.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/DP/Maximal Square II.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/DP/Triangle.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/DP/Word Break.py">
@@ -732,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LintCode/DP/! M Longest Common Subsequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Binary Search/! M Pow(x, n).py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -752,10 +709,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DP/H Coins in a Line III.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DP/! M Longest Common Subsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/DP/! M Longest Increasing Subsequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1021">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="-155">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DP/Russian Doll Envelopes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="81" lean-forward="true" selection-start-line="12" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DP/H Russian Doll Envelopes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LintCode/DP/Triangle.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Maximal Square.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
