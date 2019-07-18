@@ -37,4 +37,3 @@ if (isInside(0, 0, 20, 0, 10, 30, 10, 15)):
     print('Inside')
 else:
     print('Not Inside')
-    
