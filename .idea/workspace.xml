@@ -19,15 +19,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LeetCode/DP/M Maximal Square.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/DP/! M Unique Paths II.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-200" />
@@ -39,10 +30,17 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Four.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-110" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Three.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-185" />
           </provider>
         </entry>
       </file>
@@ -374,7 +372,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561601599890</updated>
       <workItem from="1561601603689" duration="1555000" />
-      <workItem from="1561604588106" duration="58343000" />
+      <workItem from="1561604588106" duration="58648000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1561604007343</created>
@@ -387,10 +385,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59898000" />
+    <option name="totallyTimeSpent" value="60203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1680" height="947" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49941522" visible="true" weight="0.3015873" />
       <window_info id="Structure" order="1" sideWeight="0.5005848" side_tool="true" weight="0.3015873" />
@@ -468,13 +467,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LintCode/DP/Backpack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LintCode/DP/M Backpack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -743,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Two.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/DS - Linked List/! E Reverse Linked List.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -787,6 +772,18 @@
     <entry file="file://$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Four.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Two.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/DS - Build In/! E Power of Three.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185" />
       </provider>
     </entry>
   </component>
