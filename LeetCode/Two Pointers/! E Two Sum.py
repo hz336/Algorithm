@@ -35,7 +35,10 @@ class Solution:
 """
 Follow up 1: Can you solve it with O(1) space complexity?
 Then it becomes question 'E Two Sum II - Input array is sorted'
+
+Follow up 2: 'M Two Sum III - Data Structure Design'
 """
+
 
 
 

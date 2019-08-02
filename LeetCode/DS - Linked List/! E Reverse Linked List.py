@@ -21,6 +21,10 @@ Space Complexity: O(1)
 """
 
 
+"""
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
 class Solution:
     def reverseList(self, head: 'ListNode') -> 'ListNode':
         if head is None or head.next is None:
@@ -34,3 +38,22 @@ class Solution:
             head = next_node
 
         return prev_node
+
+
+"""
+Follow up: Can you solve it recursively?
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        if head is None or head.next is None:
+            return head
+
+        p = self.reverseList(head.next)
+        head.next.next = head
+        head.next = None
+        return p
+
+
+
