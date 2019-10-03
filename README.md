@@ -1,7 +1,7 @@
 # Algorithm
 
 This round: 
-- 10/3: 
+- 10/3: [(LeetCode/Two Pointers) ! E Intersection of Two Arrays I & II]
 - 10/4: 
 - 10/5: 
 - 10/6: 
