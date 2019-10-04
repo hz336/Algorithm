@@ -2,7 +2,7 @@
 
 This round: 
 - 10/3: [(LeetCode/Two Pointers) ! E Intersection of Two Arrays I & II]
-- 10/4: [(LeetCode/Binary Search) E Binary Search]
+- 10/4: [(LeetCode/Binary Search) E Binary Search] + [(LeetCode/Sort) ! merge_sort]
 - 10/5: 
 - 10/6: 
 - 10/7: 
