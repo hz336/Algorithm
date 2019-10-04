@@ -54,3 +54,38 @@ This round:
 "Managing money for other people is the heart and soul of what we do. Strong investment performance is critical to our success. But it's not just about alpha. It's about purpose. Asset managers provide capital to fund innovators and entrepreneurs. We help insurance companies produce profits so they can pay claims. We help institutions fund their pension liabilities so they can pay beneficiaries to live comfortably in retirement. We help individuals meet the most important financial objectives in their lives, like preparing for retirement and paying for college.
 
 "What we do is really important and I fundamentally believe in it, and in our ability to do it better than most. This is one extraordinary franchise and I have no doubt that the best is yet to come."  
+
+
+
+
+
+
+
+
+
+
+there is a standard cable used to connect monitor
+that's one
+
+another one you need to buy a vga cable
+and a converter to convert vga to usb
+there is vga outlet on the monitor
+and plenty of usb on the desktop
+
+so in theory, you could connect many more monitors
+the display quality is slightly worse, but almost non-distinguishable
+https://www.amazon.com/DisplayPort-Converter-FEMORO-Connector-Compatible/dp/B01GORJXK0/ref=asc_df_B01GORJXK0/?tag=hyprod-20&linkCode=df0&hvadid=309743296044&hvpos=1o3&hvnetw=g&hvrand=8994931535611248069&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9004338&hvtargid=pla-526011280058&psc=1
+
+
+the converter is something like this
+I bought one from Display Link brand
+vga cable always comes with monitor
+
+
+oh this one is vga to displayport
+you need one from vga to usb
+my desktop only has one displayport outlet
+
+
+
+
