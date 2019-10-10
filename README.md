@@ -4,7 +4,7 @@ This round:
 - 10/3: [(LeetCode/Two Pointers) ! E Intersection of Two Arrays I & II]
 - 10/4: [(LeetCode/Binary Search) E Binary Search] + [(LeetCode/Sort) ! merge_sort]
 - 10/5: [(LeetCode/Sort) ! quick_sort] + [(LeetCode/DP) ! E Unique Paths]
-- 10/6: 
+- 10/6: [(LeetCode/DS - Linked List) ! E Merge Two Sorted Lists]
 - 10/7: 
 - 10/8: 
 - 10/9: 
