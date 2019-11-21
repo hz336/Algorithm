@@ -1,3 +1,8 @@
+"""
+Time Complexity: O(nlogn)
+Space Complexity: O(n)
+"""
+
 def merge_sort(lst):
     temp = [0] * len(lst)
     merge_sort_helper(lst, temp, 0, len(lst) - 1)
@@ -45,3 +50,7 @@ input = [8, 7, 6, 5, 4, 3, 2, 1]
 print(input)
 output = merge_sort(input)
 print(output)
+
+
+
+
