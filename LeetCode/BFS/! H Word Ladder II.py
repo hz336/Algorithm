@@ -35,18 +35,6 @@ Output: []
 Explanation: The endWord "cog" is not in wordList, therefore no possible transformation.
 """
 
-"""
-There’s a good theoretical paper on how to mix short and long term signals in your alpha model (Prop 4 is relevant):
-http://faculty.haas.berkeley.edu/garleanu/DynTrad.pdf
-
-At a very intuitive level, we annualize our alphas by multiplying by 12. 
-This makes sense if the autocorr of alpha is 100%, but the autocorr will be much lower if alpha is driven by short term factors.
-
-Therefore, eventually we will have to introduce a new penalty parameter (k), where final coef = coef * (1 + k*(signal autocorr-1))
-I think adding this parameter to  ‘sbs_floor’ would be relatively easy. But let’s hold off until we finish prelim backtests using seasonality.
-
-"""
-
 from collections import deque, defaultdict
 
 
