@@ -45,13 +45,7 @@ Implement double sqrt(double x) and x >= 0.
 """
 
 class Solution_new:
-    """
-    @param: x: a double
-    @return: the square root of x
-    """
-
     def sqrt(self, x):
-        # write your code here
         start, end = 0, x
         eps = 1e-12
 

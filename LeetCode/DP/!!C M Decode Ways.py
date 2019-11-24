@@ -43,3 +43,38 @@ class Solution:
 
         return f[-1]
 
+
+"""
+Follow Up: Could you print all the combinations of the message? 
+DFS
+"""
+class Solution:
+    def __init__(self):
+        pass
+
+    def decodings(self, s):
+        if s is None or len(s) == 0:
+            return []
+
+        subset = []
+        results = []
+        self.dfs(s, 0, subset, results)
+        return results
+
+    def dfs(self, s, index, subset, results):
+        if index == len(s):
+            results.append(subset)
+            return
+
+        if 1 <= int(s[index]) <= 9:
+            word = chr(int(s[index]) - 1 + ord('A'))
+            self.dfs(s, index + 1, subset + [word], results)
+
+        if index + 1 < len(s) and 10 <= int(s[index: index + 2]) <= 26:
+            word = chr(int(s[index: index + 2]) - 1 + ord('A'))
+            self.dfs(s, index + 2, subset + [word], results)
+
+
+test = Solution()
+test_res = test.decodings("123")
+print(test_res)
