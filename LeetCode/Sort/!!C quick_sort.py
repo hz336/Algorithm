@@ -15,11 +15,14 @@ def quick_sort_helper(lst, start, end):
         return
 
     left, right = start, end
+
+    # Point 1: get value, not index.
+    # The value at a fixed index might be changing.
     pivot = lst[(start + end) // 2]
 
-    # Point 1: left <= right, not <
+    # Point 2: left <= right, not <
     while left <= right:
-        # Point 2: lst[left] < pivot, not <=
+        # Point 3: lst[left] < pivot, not <=
         while left <= right and lst[left] < pivot:
             left += 1
 
