@@ -1,0 +1,15 @@
+
+# Byte-compiled 
+**/__pycache__/
+
+# Jupyter Notebook
+**/.ipynb_checkpoints/
+
+# Desktop Services_Store for Mac
+**/.DS_Store
+
+# temporay backup files for Microsoft Office files
+**/~$*.docx
+
+# PyCharm
+**/.idea/
